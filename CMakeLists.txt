@@ -2,9 +2,9 @@
 
 cmake_minimum_required(VERSION 3.20.0)
 
-# The default board for this example is the stm32u5a9j_dk, but can be
+# The default board for this example is the b_u585i_iot02a, but can be
 # overridden by passing --board=<board> to west or -DBOARD=<board> to cmake
-set(BOARD stm32u5a9j_dk)
+set(BOARD b_u585i_iot02a)
 
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 
